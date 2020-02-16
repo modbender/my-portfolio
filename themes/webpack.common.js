@@ -76,7 +76,7 @@ module.exports = {
     resolve: {
         extensions: [".tsx", ".ts", ".js", ".jsx"],
         modules: [
-          'assets',
+          assetsFolder,
           'node_modules'
         ],
     },
