@@ -1,6 +1,6 @@
 import Typed from 'typed.js';
 import '../js-lib/owlcarousel/owl.carousel.min.js'
-import '../jslib/typed/typed.min.js';
+import '../js-lib/typed/typed.min.js';
 (function ($) {
 	"use strict";
 	var nav = $('nav');
