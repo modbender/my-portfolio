@@ -1,0 +1,41 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.common.js",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "babel-loader": "^8.0.6",
+    "bootstrap": "^4.3.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "jquery": "^3.4.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.15.0",
+    "sass-loader": "^8.0.0",
+    "terser-webpack-plugin": "^2.0.1",
+    "webpack": "^4.39.3",
+    "webpack-bundle-tracker": "^0.4.2-beta",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-fix-style-only-entries": "^0.4.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server -d --config webpack.dev.js --watch",
+    "build": "webpack -p --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "ionicons": "^4.6.3",
+    "lightbox2": "^2.11.1",
+    "owl.carousel": "^2.3.4",
+    "typed.js": "^2.0.10",
+    "webpack-merge": "^4.2.2"
+  }
+}
