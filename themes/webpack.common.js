@@ -11,7 +11,7 @@ const FixStyleOnlyEntriesPlugin = require("webpack-fix-style-only-entries"); // 
 const TerserPlugin = require("terser-webpack-plugin");
 const BundleTracker = require("webpack-bundle-tracker");
 const assetsFolder = "./assets/";
-const outputFolder = "../../../static/dist";
+const outputFolder = "../static/dist";
 
 module.exports = {
     entry: {
